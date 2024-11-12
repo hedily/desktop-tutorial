@@ -1,0 +1,1666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1253</width>
+    <height>1060</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>-80</x>
+      <y>-60</y>
+      <width>1261</width>
+      <height>861</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QGroupBox" name="groupBox_3">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>0</y>
+       <width>1131</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(50, 54, 63);
+border-color: rgb(50, 54, 63);
+</string>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>241</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../../../Pictures/Screenshots/Capture d'écran 2024-09-28 124219.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>1080</x>
+        <y>30</y>
+        <width>31</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../../../Downloads/log-out.svg</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>1040</x>
+        <y>30</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../../../Downloads/user (1).svg</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>30</y>
+        <width>21</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../../../Downloads/search.svg</pixmap>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_6" native="true">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>30</y>
+        <width>291</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+border-top-left-radius: 10px ;
+border-bottom-left-radius: 10px ;
+border-top-right-radius:10px ;
+border-bottom-right-radius:10px ;
+ border: 2px solid rgba(129,211,22,255);  padding: 1px; 
+
+</string>
+      </property>
+      <widget class="QPushButton" name="pushButton_15">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>15</width>
+         <height>15</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>15</width>
+         <height>15</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>15</width>
+         <height>15</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../../Downloads/icon/icons8-chercher-64.png</normaloff>
+         <normalon>../../../../Downloads/icon/icons8-chercher-64.png</normalon>../../../../Downloads/icon/icons8-chercher-64.png</iconset>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label_18">
+      <property name="geometry">
+       <rect>
+        <x>990</x>
+        <y>20</y>
+        <width>31</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../../../Downloads/settings.svg</pixmap>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>90</y>
+       <width>1121</width>
+       <height>771</height>
+      </rect>
+     </property>
+     <property name="tabPosition">
+      <enum>QTabWidget::TabPosition::North</enum>
+     </property>
+     <property name="currentIndex">
+      <number>1</number>
+     </property>
+     <property name="documentMode">
+      <bool>false</bool>
+     </property>
+     <property name="tabsClosable">
+      <bool>false</bool>
+     </property>
+     <property name="movable">
+      <bool>false</bool>
+     </property>
+     <property name="tabBarAutoHide">
+      <bool>false</bool>
+     </property>
+     <widget class="QWidget" name="tab_7">
+      <attribute name="title">
+       <string>        Profil          </string>
+      </attribute>
+      <widget class="QGroupBox" name="groupBox_4">
+       <property name="geometry">
+        <rect>
+         <x>-70</x>
+         <y>0</y>
+         <width>1241</width>
+         <height>571</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string/>
+       </property>
+       <widget class="QLabel" name="label_28">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>190</y>
+          <width>631</width>
+          <height>221</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 72pt &quot;French Script MT&quot;;
+font: 9pt &quot;Nirmala UI&quot;;
+background-color: rgb(255, 255, 255);
+background-color: rgb(255, 255, 255);
+background-color: rgb(255, 85, 0);
+font: 72pt &quot;Vladimir Script&quot;;
+color: rgb(197, 197, 197);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>CleanXpert</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>          Client            </string>
+      </attribute>
+      <widget class="QTabWidget" name="tabWidget_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1531</width>
+         <height>741</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
+       <widget class="QWidget" name="tab_9">
+        <attribute name="title">
+         <string>Add Client</string>
+        </attribute>
+        <widget class="QGroupBox" name="groupBox_2">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>0</y>
+           <width>1031</width>
+           <height>671</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid #000000; padding: 1px; ;
+background-color: rgb(255, 255, 255);
+border-top-left-radius: 10px ;
+border-bottom-left-radius: 10px ;
+border-top-right-radius:10px ;
+border-bottom-right-radius:10px ;
+</string>
+         </property>
+         <property name="title">
+          <string>Ajout d'un client</string>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+         <widget class="QLabel" name="label_5">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>30</y>
+            <width>381</width>
+            <height>511</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap>../../../../Downloads/icons8-test-account-50 (1).png</pixmap>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_6">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>80</y>
+            <width>49</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border:none;</string>
+          </property>
+          <property name="text">
+           <string>ID*</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_7">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>120</y>
+            <width>71</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border:none;</string>
+          </property>
+          <property name="text">
+           <string>Nom*</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_8">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>160</y>
+            <width>81</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border:none;</string>
+          </property>
+          <property name="text">
+           <string>prenom*</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_9">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>350</y>
+            <width>91</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border:none;</string>
+          </property>
+          <property name="text">
+           <string>Email*</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_10">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>390</y>
+            <width>49</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border:none;</string>
+          </property>
+          <property name="text">
+           <string>DN*</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_12">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>430</y>
+            <width>161</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border:none;</string>
+          </property>
+          <property name="text">
+           <string>Pt_fidelite*</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="valider">
+          <property name="geometry">
+           <rect>
+            <x>280</x>
+            <y>490</y>
+            <width>91</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Segoe UI Black</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 85, 0);
+color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string>Valider</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="id_client">
+          <property name="geometry">
+           <rect>
+            <x>180</x>
+            <y>80</y>
+            <width>191</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"> border: 2px solid rgb(255, 85, 0);  padding: 1px; ;
+border-top-left-radius: 10px ;
+border-bottom-left-radius: 10px ;
+border-top-right-radius:10px ;
+border-bottom-right-radius:10px ;
+
+</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="nom">
+          <property name="geometry">
+           <rect>
+            <x>180</x>
+            <y>120</y>
+            <width>191</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"> border: 2px solid rgb(255, 85, 0);  padding: 1px; ;
+border-top-left-radius: 10px ;
+border-bottom-left-radius: 10px ;
+border-top-right-radius:10px ;
+border-bottom-right-radius:10px ;
+
+</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="prenom">
+          <property name="geometry">
+           <rect>
+            <x>180</x>
+            <y>160</y>
+            <width>191</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"> border: 2px solid rgb(255, 85, 0);  padding: 1px; ;
+border-top-left-radius: 10px ;
+border-bottom-left-radius: 10px ;
+border-top-right-radius:10px ;
+border-bottom-right-radius:10px ;
+
+
+</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="telephone">
+          <property name="geometry">
+           <rect>
+            <x>180</x>
+            <y>210</y>
+            <width>191</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"> border: 2px solid rgb(255, 85, 0);  padding: 1px; ;
+border-top-left-radius: 10px ;
+border-bottom-left-radius: 10px ;
+border-top-right-radius:10px ;
+border-bottom-right-radius:10px ;
+
+</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="email">
+          <property name="geometry">
+           <rect>
+            <x>180</x>
+            <y>350</y>
+            <width>191</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"> border: 2px solid rgb(255, 85, 0);  padding: 1px; ;
+border-top-left-radius: 10px ;
+border-bottom-left-radius: 10px ;
+border-top-right-radius:10px ;
+border-bottom-right-radius:10px ;
+
+
+</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="annuler">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>490</y>
+            <width>91</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Segoe UI Black</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 85, 0);
+color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string>Annuler</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="exporter">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>610</y>
+            <width>181</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Segoe UI Black</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 85, 0);
+color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string>EXPORTER</string>
+          </property>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_6">
+          <property name="geometry">
+           <rect>
+            <x>410</x>
+            <y>30</y>
+            <width>591</width>
+            <height>621</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 700 12pt &quot;Segoe UI&quot;;
+/*background-color: rgb(50, 54, 63);*/
+border-top-left-radius: 20px ;
+border-bottom-left-radius:20px ;
+border-top-right-radius:20px ;
+border-bottom-right-radius:20px ;
+background-color: rgb(50, 54, 63);
+
+</string>
+          </property>
+          <property name="title">
+           <string/>
+          </property>
+          <widget class="QPushButton" name="pushButton_11">
+           <property name="geometry">
+            <rect>
+             <x>730</x>
+             <y>40</y>
+             <width>75</width>
+             <height>24</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../../../../Downloads/icon/icons8-filtre-64.png</normaloff>../../../../Downloads/icon/icons8-filtre-64.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>30</width>
+             <height>30</height>
+            </size>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_12">
+           <property name="geometry">
+            <rect>
+             <x>680</x>
+             <y>100</y>
+             <width>111</width>
+             <height>24</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Segoe UI</family>
+             <pointsize>9</pointsize>
+             <italic>true</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border: 1px solid #FD7E14; padding: 1px; ;
+background-color: rgb(255, 255, 255);
+border-top-left-radius: 5px ;
+border-bottom-left-radius: 5px ;
+border-top-right-radius:5px ;
+border-bottom-right-radius:5px ;
+font: italic 9pt &quot;Segoe UI&quot;;
+
+</string>
+           </property>
+           <property name="text">
+            <string>Voir Détails</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_13">
+           <property name="geometry">
+            <rect>
+             <x>680</x>
+             <y>140</y>
+             <width>111</width>
+             <height>24</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Segoe UI</family>
+             <pointsize>9</pointsize>
+             <italic>true</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border: 1px solid #FD7E14; padding: 1px; ;
+background-color: rgb(255, 255, 255);
+border-top-left-radius: 5px ;
+border-bottom-left-radius: 5px ;
+border-top-right-radius:5px ;
+border-bottom-right-radius:5px ;
+font: italic 9pt &quot;Segoe UI&quot;;
+
+</string>
+           </property>
+           <property name="text">
+            <string>Voir Détails</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_14">
+           <property name="geometry">
+            <rect>
+             <x>680</x>
+             <y>180</y>
+             <width>111</width>
+             <height>24</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Segoe UI</family>
+             <pointsize>9</pointsize>
+             <italic>true</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border: 1px solid #FD7E14; padding: 1px; ;
+background-color: rgb(255, 255, 255);
+border-top-left-radius: 5px ;
+border-bottom-left-radius: 5px ;
+border-top-right-radius:5px ;
+border-bottom-right-radius:5px ;
+font: italic 9pt &quot;Segoe UI&quot;;
+
+</string>
+           </property>
+           <property name="text">
+            <string>Voir Détails</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="modifier">
+           <property name="geometry">
+            <rect>
+             <x>430</x>
+             <y>560</y>
+             <width>141</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Segoe UI</family>
+             <pointsize>9</pointsize>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 85, 0);
+font: 9pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+border-top-left-radius: 10px ;
+border-bottom-left-radius: 10px ;
+border-top-right-radius:10px ;
+border-bottom-right-radius:10px ;</string>
+           </property>
+           <property name="text">
+            <string>modifier</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../../../../.designer/.designer/Downloads/search (4).svg</normaloff>../../../../.designer/.designer/Downloads/search (4).svg</iconset>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="supprimer">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>560</y>
+             <width>141</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Segoe UI</family>
+             <pointsize>9</pointsize>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 85, 0);
+font: 9pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+border-top-left-radius: 10px ;
+border-bottom-left-radius: 10px ;
+border-top-right-radius:10px ;
+border-bottom-right-radius:10px ;</string>
+           </property>
+           <property name="text">
+            <string>supprimer</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../../../../.designer/.designer/Downloads/search (4).svg</normaloff>../../../../.designer/.designer/Downloads/search (4).svg</iconset>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="afficher">
+           <property name="geometry">
+            <rect>
+             <x>440</x>
+             <y>400</y>
+             <width>141</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Segoe UI</family>
+             <pointsize>9</pointsize>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 85, 0);
+font: 9pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+border-top-left-radius: 10px ;
+border-bottom-left-radius: 10px ;
+border-top-right-radius:10px ;
+border-bottom-right-radius:10px ;</string>
+           </property>
+           <property name="text">
+            <string>afficher</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../../../../.designer/.designer/Downloads/search (4).svg</normaloff>../../../../.designer/.designer/Downloads/search (4).svg</iconset>
+           </property>
+          </widget>
+          <widget class="QTableView" name="tableView">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>180</y>
+             <width>571</width>
+             <height>201</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"> border: 2px solid rgb(255, 85, 0);  padding: 1px; ;
+border-top-left-radius: 10px ;
+border-bottom-left-radius: 10px ;
+border-top-right-radius:10px ;
+border-bottom-right-radius:10px ;
+
+</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="recherche">
+           <property name="geometry">
+            <rect>
+             <x>60</x>
+             <y>40</y>
+             <width>191</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"> border: 2px solid rgb(255, 85, 0);  padding: 1px; ;
+border-top-left-radius: 10px ;
+border-bottom-left-radius: 10px ;
+border-top-right-radius:10px ;
+border-bottom-right-radius:10px ;
+
+</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="rechercher">
+           <property name="geometry">
+            <rect>
+             <x>90</x>
+             <y>80</y>
+             <width>141</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Segoe UI</family>
+             <pointsize>9</pointsize>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 85, 0);
+font: 9pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+border-top-left-radius: 10px ;
+border-bottom-left-radius: 10px ;
+border-top-right-radius:10px ;
+border-bottom-right-radius:10px ;</string>
+           </property>
+           <property name="text">
+            <string>rechercher</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../../../../.designer/.designer/Downloads/search (4).svg</normaloff>../../../../.designer/.designer/Downloads/search (4).svg</iconset>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="trier_2">
+           <property name="geometry">
+            <rect>
+             <x>370</x>
+             <y>80</y>
+             <width>141</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Segoe UI</family>
+             <pointsize>9</pointsize>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 85, 0);
+font: 9pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+border-top-left-radius: 10px ;
+border-bottom-left-radius: 10px ;
+border-top-right-radius:10px ;
+border-bottom-right-radius:10px ;</string>
+           </property>
+           <property name="text">
+            <string>trier</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../../../../.designer/.designer/Downloads/search (4).svg</normaloff>../../../../.designer/.designer/Downloads/search (4).svg</iconset>
+           </property>
+          </widget>
+          <widget class="QComboBox" name="comboBox">
+           <property name="geometry">
+            <rect>
+             <x>330</x>
+             <y>30</y>
+             <width>201</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"> border: 2px solid rgb(255, 85, 0);  padding: 1px; ;
+border-top-left-radius: 10px ;
+border-bottom-left-radius: 10px ;
+border-top-right-radius:10px ;
+border-bottom-right-radius:10px ;
+
+</string>
+           </property>
+           <item>
+            <property name="text">
+             <string>nom</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>point de fidelite</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>prenom</string>
+            </property>
+           </item>
+          </widget>
+         </widget>
+         <widget class="QLineEdit" name="telephone_2">
+          <property name="geometry">
+           <rect>
+            <x>180</x>
+            <y>270</y>
+            <width>191</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"> border: 2px solid rgb(255, 85, 0);  padding: 1px; ;
+border-top-left-radius: 10px ;
+border-bottom-left-radius: 10px ;
+border-top-right-radius:10px ;
+border-bottom-right-radius:10px ;
+
+</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_11">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>270</y>
+            <width>91</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border:none;</string>
+          </property>
+          <property name="text">
+           <string>Telephone*</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_19">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>220</y>
+            <width>91</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border:none;</string>
+          </property>
+          <property name="text">
+           <string>Adresse*</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="email_3">
+          <property name="geometry">
+           <rect>
+            <x>180</x>
+            <y>430</y>
+            <width>191</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"> border: 2px solid rgb(255, 85, 0);  padding: 1px; ;
+border-top-left-radius: 10px ;
+border-bottom-left-radius: 10px ;
+border-top-right-radius:10px ;
+border-bottom-right-radius:10px ;
+
+</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="email_4">
+          <property name="geometry">
+           <rect>
+            <x>180</x>
+            <y>390</y>
+            <width>191</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"> border: 2px solid rgb(255, 85, 0);  padding: 1px; ;
+border-top-left-radius: 10px ;
+border-bottom-left-radius: 10px ;
+border-top-right-radius:10px ;
+border-bottom-right-radius:10px ;
+
+</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_13">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>310</y>
+            <width>91</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border:none;</string>
+          </property>
+          <property name="text">
+           <string>Genre*</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton">
+          <property name="geometry">
+           <rect>
+            <x>180</x>
+            <y>310</y>
+            <width>89</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"> border: 2px solid rgb(255, 85, 0);  padding: 1px; ;
+border-top-left-radius: 10px ;
+border-bottom-left-radius: 10px ;
+border-top-right-radius:10px ;
+border-bottom-right-radius:10px ;
+
+</string>
+          </property>
+          <property name="text">
+           <string>Femme</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_2">
+          <property name="geometry">
+           <rect>
+            <x>280</x>
+            <y>310</y>
+            <width>89</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"> border: 2px solid rgb(255, 85, 0);  padding: 1px; ;
+border-top-left-radius: 10px ;
+border-bottom-left-radius: 10px ;
+border-top-right-radius:10px ;
+border-bottom-right-radius:10px ;
+
+</string>
+          </property>
+          <property name="text">
+           <string>Homme</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="tab_11">
+        <attribute name="title">
+         <string>Fidélité</string>
+        </attribute>
+        <widget class="QGroupBox" name="groupBox_8">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>1131</width>
+           <height>711</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 700 12pt &quot;Segoe UI&quot;;
+background-color: rgb(50, 54, 63);
+border-top-left-radius: 20px ;
+border-bottom-left-radius:20px ;
+border-top-right-radius:20px ;
+border-bottom-right-radius:20px ;
+
+</string>
+         </property>
+         <property name="title">
+          <string/>
+         </property>
+         <widget class="QPushButton" name="pushButton_23">
+          <property name="geometry">
+           <rect>
+            <x>740</x>
+            <y>40</y>
+            <width>41</width>
+            <height>24</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>../../../../Downloads/icon/icons8-filtre-64.png</normaloff>../../../../Downloads/icon/icons8-filtre-64.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>30</width>
+            <height>30</height>
+           </size>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_23">
+          <property name="geometry">
+           <rect>
+            <x>360</x>
+            <y>20</y>
+            <width>401</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color:  rgba(129,211,22,255); 
+font: 350 italic 18pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Notification d'aujourd'hui</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_24">
+          <property name="geometry">
+           <rect>
+            <x>690</x>
+            <y>20</y>
+            <width>21</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap>../../../../Downloads/bell.svg</pixmap>
+          </property>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_5">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>70</y>
+            <width>1061</width>
+            <height>601</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Segoe UI</family>
+            <pointsize>12</pointsize>
+            <italic>false</italic>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border: 1px solid #000000; padding: 1px; ;
+background-color: rgb(255, 255, 255);
+border-top-left-radius: 10px ;
+border-bottom-left-radius: 10px ;
+border-top-right-radius:10px ;
+border-bottom-right-radius:10px ;
+</string>
+          </property>
+          <property name="title">
+           <string/>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
+          <widget class="QLabel" name="label_25">
+           <property name="geometry">
+            <rect>
+             <x>40</x>
+             <y>40</y>
+             <width>981</width>
+             <height>491</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>../../../../Downloads/icons8-test-account-50 (1).png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_16">
+           <property name="geometry">
+            <rect>
+             <x>280</x>
+             <y>460</y>
+             <width>231</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Segoe UI</family>
+             <pointsize>12</pointsize>
+             <italic>false</italic>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgba(129,211,22,255); 
+color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string>Envoyer un reduction</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_17">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>460</y>
+             <width>211</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Segoe UI</family>
+             <pointsize>12</pointsize>
+             <italic>false</italic>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgba(129,211,22,255); 
+color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string>Envoyer un mail</string>
+           </property>
+          </widget>
+          <widget class="QTableWidget" name="tableWidget_2">
+           <property name="geometry">
+            <rect>
+             <x>70</x>
+             <y>140</y>
+             <width>421</width>
+             <height>261</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"> border: 2px solid rgba(129,211,22,255);   padding: 1px; ;
+background-color: rgb(255, 255, 255);
+border-top-left-radius: 10px ;
+border-bottom-left-radius:10px ;
+border-top-right-radius:10px ;
+border-bottom-right-radius:10px ;
+
+
+</string>
+           </property>
+           <column>
+            <property name="text">
+             <string>Nom</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Prenom</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Telephone</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Email</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>ID</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Date de naissance </string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Genre</string>
+            </property>
+           </column>
+          </widget>
+          <widget class="QWidget" name="widget_7" native="true">
+           <property name="geometry">
+            <rect>
+             <x>80</x>
+             <y>70</y>
+             <width>291</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);
+border-top-left-radius: 10px ;
+border-bottom-left-radius: 10px ;
+border-top-right-radius:10px ;
+border-bottom-right-radius:10px ;
+ border: 2px solid rgba(129,211,22,255);  padding: 1px; 
+
+</string>
+           </property>
+           <widget class="QPushButton" name="pushButton_18">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>10</y>
+              <width>15</width>
+              <height>15</height>
+             </rect>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>15</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>15</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: none;</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../../../../Downloads/icon/icons8-chercher-64.png</normaloff>
+              <normalon>../../../../Downloads/icon/icons8-chercher-64.png</normalon>../../../../Downloads/icon/icons8-chercher-64.png</iconset>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QPushButton" name="pushButton_19">
+           <property name="geometry">
+            <rect>
+             <x>390</x>
+             <y>70</y>
+             <width>111</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Segoe UI</family>
+             <pointsize>12</pointsize>
+             <italic>false</italic>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgba(129,211,22,255); 
+color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string>Rechercher</string>
+           </property>
+          </widget>
+          <widget class="QGroupBox" name="groupBox_13">
+           <property name="geometry">
+            <rect>
+             <x>570</x>
+             <y>70</y>
+             <width>421</width>
+             <height>431</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 700 12pt &quot;Segoe UI&quot;;
+/*background-color: rgb(50, 54, 63);*/
+border-top-left-radius: 20px ;
+border-bottom-left-radius:20px ;
+border-top-right-radius:20px ;
+border-bottom-right-radius:20px ;
+background-color: rgb(50, 54, 63);
+
+</string>
+           </property>
+           <property name="title">
+            <string/>
+           </property>
+           <widget class="QPushButton" name="pushButton_20">
+            <property name="geometry">
+             <rect>
+              <x>730</x>
+              <y>40</y>
+              <width>75</width>
+              <height>24</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../../../../Downloads/icon/icons8-filtre-64.png</normaloff>../../../../Downloads/icon/icons8-filtre-64.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>30</width>
+              <height>30</height>
+             </size>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_40">
+            <property name="geometry">
+             <rect>
+              <x>70</x>
+              <y>570</y>
+              <width>141</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>9</pointsize>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgba(129,211,22,255);
+font: 9pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+border-top-left-radius: 10px ;
+border-bottom-left-radius: 10px ;
+border-top-right-radius:10px ;
+border-bottom-right-radius:10px ;</string>
+            </property>
+            <property name="text">
+             <string>modifier</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../../../../.designer/.designer/Downloads/search (4).svg</normaloff>../../../../.designer/.designer/Downloads/search (4).svg</iconset>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_41">
+            <property name="geometry">
+             <rect>
+              <x>410</x>
+              <y>570</y>
+              <width>141</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>9</pointsize>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgba(129,211,22,255);
+font: 9pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+border-top-left-radius: 10px ;
+border-bottom-left-radius: 10px ;
+border-top-right-radius:10px ;
+border-bottom-right-radius:10px ;</string>
+            </property>
+            <property name="text">
+             <string>supprimer</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../../../../.designer/.designer/Downloads/search (4).svg</normaloff>../../../../.designer/.designer/Downloads/search (4).svg</iconset>
+            </property>
+           </widget>
+          </widget>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="tab_10">
+        <attribute name="title">
+         <string>Feedback</string>
+        </attribute>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_3">
+      <attribute name="title">
+       <string>             Produit          </string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="tab_4">
+      <attribute name="title">
+       <string>         Commande           </string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="tab_5">
+      <attribute name="title">
+       <string>          Article          </string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="tab_6">
+      <attribute name="title">
+       <string>       Personnel        </string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>             Service         </string>
+      </attribute>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1253</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
