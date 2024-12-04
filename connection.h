@@ -10,7 +10,7 @@ public:
     void closeConnection();
 
 private:
-    QSqlDatabase db;  // Déclare QSqlDatabase en tant que variable membre
+    QSqlDatabase db;
 };
 
 #endif // CONNECTION_H

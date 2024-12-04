@@ -8,19 +8,23 @@ Connection::Connection() {
 }
 
 bool Connection::createConnect() {
-    db.setDatabaseName("projetcpp_2A36"); // Nom de la source de données
-    db.setUserName("system");               // Nom d'utilisateur
-    db.setPassword("cleaning");             // Mot de passe
+    db.setDatabaseName("CPP_Project");
+    db.setUserName("hedil");            // Nom d'utilisateur
+    db.setPassword("oracle");           // Mot de passe
 
     if (!db.open()) {
-        qDebug() << "Erreur: " << db.lastError().text();
+        qDebug() << "Erreur de connexion à la base de données:";
+        qDebug() << "Nom de la base de données:" << db.databaseName();
+        qDebug() << "Utilisateur:" << db.userName();
+        qDebug() << "Erreur:" << db.lastError().text();
         return false;
     }
+
+    qDebug() << "Connexion réussie à la base de données!";
     return true;
 }
 
 void Connection::closeConnection() {
     db.close();
+    qDebug() << "Connexion fermée.";
 }
-
-

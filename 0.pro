@@ -1,8 +1,14 @@
-QT       += core gui sql widgets
-QT += printsupport
-QT += charts
+#INCLUDEPATH += path/to/qrcodegen
+#INCLUDEPATH += $$PWD/qrcodegen
+# Nom du projet
+TEMPLATE = app
+TARGET = YourProjectName
 
-CONFIG   += c++17
+# Modules Qt nécessaires
+QT += core gui sql widgets printsupport charts network
+
+# Configuration de la version de C++
+CONFIG += c++17
 
 # Désactive les API obsolètes de Qt avant Qt 6.0 (optionnel)
 # DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000
@@ -28,3 +34,11 @@ FORMS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+# Ajoutez le chemin pour QtSMTP si vous l'utilisez
+# Remplacez par le chemin correct vers QtSMTP
+# INCLUDEPATH += path/to/QtSmtp/src
+# SOURCES += path/to/QtSmtp/src/QtSmtp.cpp  # Ajoutez d'autres fichiers .cpp si nécessaires
+# HEADERS += path/to/QtSmtp/src/QtSmtp.h
+
+# Si vous n'utilisez pas QtSMTP, commentez ou supprimez les lignes ci-dessus
