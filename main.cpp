@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include "mainwindow.h"
 #include <QApplication>
 #include <QMessageBox>
@@ -23,4 +24,12 @@ int main(int argc, char *argv[]) {
                              QMessageBox::Cancel);
 
     return a.exec();
+=======
+int main(){
+    cout<<"hello"<<endl;
+    cout<<"....";
+    cout<<"hi"<<endl;
+    cout<<"222";
+    return 0;
+>>>>>>> 95f2bc20b28fe46007011ffe2d0bfa2b33b759bb
 }
